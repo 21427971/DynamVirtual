@@ -30,7 +30,7 @@ namespace DynamVirtual
             {
                 //KSI Msimango
             }
-            public override int Area()
+            public override int Area()// to calculate
             {
                 Console.WriteLine("Enter a height");
                 height = int.Parse(Console.ReadLine());
@@ -38,7 +38,7 @@ namespace DynamVirtual
                 width = int.Parse(Console.ReadLine());
                 return (height*width);
             }
-            public override string PrintName()
+            public override string PrintName()// to print the shape name
             {
                 Console.WriteLine("Enter the shape name");
                 myname = Convert.ToString(Console.ReadLine());
